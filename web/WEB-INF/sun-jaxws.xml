@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints version="2.0" xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime">
+  <endpoint implementation="ws.api.login" name="login" url-pattern="/login"/>
+  <endpoint implementation="ws.api.regUltimo" name="regUltimo" url-pattern="/regUltimo"/>
+  <endpoint implementation="ws.api.cargarventasSede" name="cargarventasSede" url-pattern="/cargarventasSede"/>
+</endpoints>
